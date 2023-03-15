@@ -1,3 +1,4 @@
 1678886845378	Rename package 'com.marcksuel.mongo.entities'
 1678888573809	Rename package 'com.marcksuel.mongo.resource'
 1678919016587	Encapsulate field 'author'
+1678921626716	Rename type 'PostService'
