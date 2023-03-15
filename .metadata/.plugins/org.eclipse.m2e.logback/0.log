@@ -487,3 +487,21 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:nett
 2023-03-15 19:30:44,773 [Worker-87: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-03-15 19:30:44,788 [Worker-87: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-03-15 19:30:44,791 [Worker-87: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 19:34:46,185 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 19:34:46,191 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:34:46,194 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 19:37:07,352 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 19:37:07,359 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:37:07,362 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 19:37:56,666 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 19:37:56,674 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:37:56,677 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 19:39:40,417 [Worker-87: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 19:39:40,421 [Worker-87: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:39:40,423 [Worker-87: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 19:42:54,936 [Worker-89: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 19:42:54,940 [Worker-89: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:42:54,942 [Worker-89: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 19:43:48,864 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 19:43:48,866 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:43:48,868 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
