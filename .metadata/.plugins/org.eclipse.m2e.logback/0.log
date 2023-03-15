@@ -330,3 +330,55 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:nett
 2023-03-15 11:25:56,351 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-03-15 11:25:56,357 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-03-15 11:25:56,361 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 11:42:22,867 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 11:42:22,877 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 11:42:22,881 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 11:43:10,195 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 11:43:10,200 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 11:43:10,204 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 11:47:05,556 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.marcksuel:mongo:0.0.1-SNAPSHOT @ C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\pom.xml.
+2023-03-15 11:47:06,077 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 11:47:06,078 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 11:47:06,082 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 11:47:07,354 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.0.4/spring-boot-starter-data-mongodb-3.0.4-sources.jar
+2023-03-15 11:47:07,387 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.0.4/spring-boot-starter-data-mongodb-3.0.4-sources.jar
+2023-03-15 11:47:07,391 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-mongodb:3.0.4
+2023-03-15 11:47:07,498 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.8.2/mongodb-driver-sync-4.8.2-sources.jar
+2023-03-15 11:47:07,566 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.8.2/mongodb-driver-sync-4.8.2-sources.jar
+2023-03-15 11:47:07,569 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:mongodb-driver-sync:4.8.2
+2023-03-15 11:47:07,659 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 11:47:07,662 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/4.8.2/bson-4.8.2-sources.jar
+2023-03-15 11:47:07,693 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 11:47:07,705 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 11:47:07,785 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson/4.8.2/bson-4.8.2-sources.jar
+2023-03-15 11:47:07,788 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:bson:4.8.2
+2023-03-15 11:47:07,988 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.8.2/mongodb-driver-core-4.8.2-sources.jar
+2023-03-15 11:47:08,134 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.8.2/mongodb-driver-core-4.8.2-sources.jar
+2023-03-15 11:47:08,137 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:mongodb-driver-core:4.8.2
+2023-03-15 11:47:08,222 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.8.2/bson-record-codec-4.8.2-sources.jar
+2023-03-15 11:47:08,353 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.8.2/bson-record-codec-4.8.2-sources.jar
+2023-03-15 11:47:08,355 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:bson-record-codec:4.8.2
+2023-03-15 11:47:08,460 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.0.3/spring-data-mongodb-4.0.3-sources.jar
+2023-03-15 11:47:08,704 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.0.3/spring-data-mongodb-4.0.3-sources.jar
+2023-03-15 11:47:08,707 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-mongodb:4.0.3
+2023-03-15 11:47:09,178 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 11:47:09,178 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 11:47:09,182 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 12:03:09,646 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 12:03:09,671 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 12:03:09,675 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 12:04:26,179 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 12:04:26,185 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 12:04:26,188 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 12:04:33,053 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 12:04:33,059 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 12:04:33,062 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 12:13:43,377 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 12:13:43,382 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 12:13:43,384 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 12:17:00,527 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 12:17:00,530 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 12:17:00,533 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
+2023-03-15 12:23:02,351 [Worker-31: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 12:23:02,358 [Worker-31: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 12:23:02,361 [Worker-31: Launching mongo - MongoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marck\Documents\SpringBoot-MongoDB\mongo\src\test\resources
