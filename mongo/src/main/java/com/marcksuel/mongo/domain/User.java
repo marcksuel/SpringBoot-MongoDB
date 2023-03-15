@@ -3,7 +3,7 @@ package com.marcksuel.mongo.domain;
 
 import java.io.Serializable;
 import java.util.Objects;
-
+  
 import org.springframework.data.annotation.Id;
 
 public class User implements Serializable {

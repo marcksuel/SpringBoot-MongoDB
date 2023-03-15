@@ -16,7 +16,7 @@ import com.marcksuel.mongo.domain.User;
 @RestController
 @RequestMapping(value = "/users")
 public class UserResource {
-	
+	 
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity <List<User>> findAll(){
 		List<User> list = new ArrayList<User>();
