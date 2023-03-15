@@ -1,13 +1,16 @@
 package com.marcksuel.mongo.domain;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Objects;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.marcksuel.mongo.dto.AuthorDTO;
+import com.marcksuel.mongo.dto.CommentDTO;
 
 @Document(collection = "post")
 public class Post implements Serializable {
@@ -20,6 +23,11 @@ public class Post implements Serializable {
 	private String body;
 	
 	private AuthorDTO author;
+	
+	private List<CommentDTO> list = new ArrayList<>();
+	 
+
+
 	public Post() {
 	}
 
@@ -73,9 +81,15 @@ public class Post implements Serializable {
 	}
 
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
+	public List<CommentDTO> getComment() {
+		return list;
 	}
+
+
+	public void setComment(List<CommentDTO> list) {
+		this.list = list;
+	}
+
 
 
 	@Override
