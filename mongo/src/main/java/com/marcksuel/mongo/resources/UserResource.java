@@ -44,5 +44,16 @@ public class UserResource {
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(user.getId()).toUri();
 		return ResponseEntity.created(uri).build(); // codigo 201 do create + localização do novo recurso
 	}
-	
+	@RequestMapping(value = "/{id}" , method = RequestMethod.DELETE)
+	public ResponseEntity<Void> delete(@RequestBody String id){
+		service.delete(id);
+		return ResponseEntity.noContent().build(); //quando é uma resposta e não tem que retornar nada, a resposta deve ser codigo 204
+	}
+	@RequestMapping(value = "/{id}" , method = RequestMethod.POST)
+	public ResponseEntity<Void> update(@RequestBody UserDTO userdto, @PathVariable String id){
+		User user=  service.fromDTO(userdto);
+		user.setId(id);
+		user = service.update(user);
+		return ResponseEntity.noContent().build(); //quando é uma resposta e não tem que retornar nada, a resposta deve ser codigo 204
+	}
 }

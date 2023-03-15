@@ -30,5 +30,20 @@ public class UserServices {
 	}
 	public User fromDTO(UserDTO dto) {
 		return new User(dto.getId(),dto.getName(),dto.getEmail());
+	}               
+	public void delete(String id) {
+		findById(id); //verificar se existe caso constrario ja lançar a exception
+		userRepository.deleteById(id);
+	}
+	public User update(User user) {
+		User find = findById(user.getId());
+		updateData(find, user);
+		return userRepository.save(find);
+	}
+
+	private void updateData(User find, User user) {
+		find.setEmail(user.getEmail());
+		find.setName(user.getName());
+		
 	}
 }
