@@ -32,16 +32,16 @@ public class Instantion implements CommandLineRunner{
 		User u3 = new User(null, "Bob Grey", "bob@gmail.com");	
 		userRepository.saveAll(Arrays.asList(u1,u2,u3));
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		sdf.setTimeZone( TimeZone.getTimeZone("GMT"));
 		
-		Post p1= new Post(null, sdf.parse("15/03/2023 19:22"), "Estudando Java", "Vamo", new AuthorDTO(u1));
-		Post p2= new Post(null, sdf.parse("14/03/2023 15:22"), "Spring Boot", "Partiu programar muito hoje", new AuthorDTO(u1));		
-		Post p3= new Post(null, sdf.parse("15/02/2023 19:22"), "Carnaval pra que?", "Tranquilo no pc", new AuthorDTO(u2));
+		Post p1= new Post(null, sdf.parse("15/03/2023"), "Estudando Java", "Vamo", new AuthorDTO(u1));
+		Post p2= new Post(null, sdf.parse("14/03/2023"), "Spring Boot", "Partiu programar muito hoje", new AuthorDTO(u1));		
+		Post p3= new Post(null, sdf.parse("15/02/2023"), "Carnaval pra que?", "Tranquilo no pc", new AuthorDTO(u2));
 		postRepository.saveAll(Arrays.asList(p1,p2,p3));
 		
-		CommentDTO c1 = new CommentDTO("boa!",sdf.parse("15/03/2023 20:00"),new AuthorDTO(u3));
-		CommentDTO c2 = new CommentDTO("legal!",sdf.parse("15/03/2023 20:00"),new AuthorDTO(u2));
+		CommentDTO c1 = new CommentDTO("boa!",sdf.parse("15/03/2023"),new AuthorDTO(u3));
+		CommentDTO c2 = new CommentDTO("legal!",sdf.parse("15/03/2023"),new AuthorDTO(u2));
 		
 		p1.getComment().add(c1);
 		p2.getComment().addAll(Arrays.asList(c1,c2));
